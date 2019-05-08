@@ -6,7 +6,9 @@
 #'@param color color of printed text. By default it's red
 #'
 #'
-#'
+#'@importFrom crayon green
+#'@importFrom crayon red
+#'@importFrom crayon blue
 #'
 #'@export
 stukupuku <- function(index = NULL, color = "red") {
