@@ -9,14 +9,26 @@ Authors@R:
       person(given = "Kacper",
            family = "Siemaszko",
            role = c("ctb"),
-           email = "k.siemaszko@student.mini.pw.edu.pl"))
+           email = "k.siemaszko@student.mini.pw.edu.pl"),
+      person(given = "Witold",
+           family = "Merkel",
+           role = c("aut"),
+           email = "w.merkel@student.mini.pw.edu.pl"),
+      person(given = "Wojciech",
+           family = "Kretowicz",
+           role = c("aut"),
+           email = "w.kretowicz@student.mini.pw.edu.pl"),
+      person(given = "Michal",
+           family = "Stawikowski",
+           role = c("aut"),
+           email = "m.stawikowski@student.mini.pw.edu.pl"))
 Description: This package does stukupuku.
 Depends: R (>= 3.0.0)
 License: GPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Imports: crayon
+Imports: crayon, beepr
 Suggests: 
     knitr,
     rmarkdown
