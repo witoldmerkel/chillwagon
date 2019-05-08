@@ -4,10 +4,10 @@
 \alias{stukupuku}
 \title{stukupuku}
 \usage{
-stukupuku(i = NULL, color = "red")
+stukupuku(index = NULL, color = "red")
 }
 \arguments{
-\item{i}{index of stukupuku line. By default it's random}
+\item{index}{index of stukupuku line. By default it's random}
 
 \item{color}{color of printed text. By default it's red}
 }
