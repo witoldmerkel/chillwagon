@@ -7,6 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "h.baniecki@student.mini.pw.edu.pl")
 Description: This package does stukupuku.
+Import: crayon
 License: GPL
 Encoding: UTF-8
 LazyData: true

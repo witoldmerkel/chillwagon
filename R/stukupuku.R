@@ -2,15 +2,14 @@
 #'
 #'@description returns one of stukupuku line
 #'
-#'@param i index of stukupuku line
-#'
-#'
+#'@param i index of stukupuku line. By default it's random
+#'@param color color of printed text. By default it's red
 #'
 #'
 #'
 #'
 #'@export
-stukupuku <- function(i) {
+stukupuku <- function(i = NULL, color = "red") {
 
   vec <- c("NBLNBLNBLNBLNBLNBL u! u!", "NBLNBLNBLNBLNBLNBL u! u!",
     "NBLNBLNBLNBLNBLNBL u! u!", "NBLNBLNBLNBL neeeeej...!", "chillwagon",
@@ -97,5 +96,13 @@ stukupuku <- function(i) {
     "sam se wyciskaj pryszcza", "chwila moment roboty", "chillwagon to koty!"
   )
 
-  vec[i]
+  if(is.null(i)) {
+    i <- sample(length(vec),1)
+  }
+
+  if(color == "red"){
+    cat(crayon::red(vec[i]))
+  } else if(color == "green"){
+    cat(crayon::green(vec[i]))
+  }
 }
