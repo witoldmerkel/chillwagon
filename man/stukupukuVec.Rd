@@ -4,7 +4,7 @@
 \alias{stukupukuVec}
 \title{stukupukuVec}
 \usage{
-stukupukuVec(v = c(0), color = "red")
+stukupukuVec(v = c(1), color = "red")
 }
 \arguments{
 \item{v}{vector of indices of stukupuku lines. By default it's first line}

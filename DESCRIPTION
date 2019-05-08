@@ -8,7 +8,7 @@ Authors@R:
            email = "h.baniecki@student.mini.pw.edu.pl"),
       person(given = "Kacper",
            family = "Siemaszko",
-           role = c("aut"),
+           role = c("ctb"),
            email = "k.siemaszko@student.mini.pw.edu.pl"))
 Description: This package does stukupuku.
 Depends: R (>= 3.0.0)
