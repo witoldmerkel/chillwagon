@@ -2,10 +2,14 @@ Package: chillwagon
 Title: ChillwagonBot
 Version: 0.0.1.0
 Authors@R: 
-    person(given = "Hubert",
+    c(person(given = "Hubert",
            family = "Baniecki",
            role = c("aut", "cre"),
-           email = "h.baniecki@student.mini.pw.edu.pl")
+           email = "h.baniecki@student.mini.pw.edu.pl"),
+      person(given = "Kacper",
+           family = "Siemaszko",
+           role = c("aut"),
+           email = "k.siemaszko@student.mini.pw.edu.pl"))
 Description: This package does stukupuku.
 Import: crayon
 License: GPL
