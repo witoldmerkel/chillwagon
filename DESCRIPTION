@@ -8,7 +8,7 @@ Authors@R:
            email = "h.baniecki@student.mini.pw.edu.pl"),
       person(given = "Kacper",
            family = "Siemaszko",
-           role = c("ctb"),
+           role = c("aut"),
            email = "k.siemaszko@student.mini.pw.edu.pl"),
       person(given = "Witold",
            family = "Merkel",
