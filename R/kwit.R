@@ -8,18 +8,22 @@
 #'
 #'@export
 kwit <- function(){
-  while(TRUE){
-    beep()
+  i <- 0
+  while(i < 1000000){
+    beepr::beep()
     Sys.sleep(0.01)
     
     d <- runif(1)
     
-    if(d<0.001) {
-      while(TRUE) {
-      beep()
-      Sys.sleep(0.001)
+    if(d<0.01) {
+      print('Witamy w chilwagonie, odprez sie!')
+      j <- 0
+      while(j <- 10000000) {
+      beepr::beep()
+      j <- j+1
       }
     }
+    i <- i+1
   }
   
 }
